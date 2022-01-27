@@ -1,0 +1,27 @@
+.social-media {
+	display: flex;
+	align-items: center;
+}
+
+.social-media {
+	a,
+	img {
+		display: block;
+	}
+}
+
+.social-media a {
+	padding: 5px;
+	cursor: pointer;
+}
+
+.social-media li {
+	margin-right: 10px;
+	transition: all ease 0.3s;
+	&:hover {
+		transform: scale(1.5);
+	}
+	&:last-child {
+		margin: 0;
+	}
+}
