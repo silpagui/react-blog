@@ -1,0 +1,23 @@
+@import "../../assets/scss/variables.scss";
+
+.button {
+	font-family: $font-title;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 30px;
+	text-transform: uppercase;
+	width: 100%;
+	max-width: 267px;
+	padding: 25px 0;
+	cursor: pointer;
+	box-sizing: border-box;
+	transition: all 0.3s ease;
+	background: $primary;
+	color: $base;
+	border: none;
+	border-radius: 10px;
+	&:hover {
+		color: $neutral;
+		background: $secondary;
+	}
+}
