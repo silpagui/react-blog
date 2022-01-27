@@ -1,0 +1,40 @@
+@import "../../assets/scss/variables.scss";
+
+.article-item {
+	margin-bottom: 40px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	article {
+		display: flex;
+		padding: 10px;
+	}
+}
+
+.article-item img {
+	width: 40%;
+	margin-right: 30px;
+}
+
+.article-item__title {
+	font-family: $font-title;
+	font-size: 30px;
+	line-height: 35px;
+	margin-bottom: 25px;
+}
+
+.article-item__description {
+	font-family: $font-body;
+	font-size: 20px;
+	line-height: 32px;
+	color: $neutral-1;
+	margin-bottom: 30px;
+}
+
+.article-item__copy {
+	font-family: $font-body;
+	color: $primary;
+	font-size: 13px;
+	text-decoration: none;
+	cursor: pointer;
+}
