@@ -1,0 +1,13 @@
+body {
+	position: relative;
+	background: $base;
+	font-family: $font-body;
+	margin: auto 0;
+}
+
+h1,
+h2,
+h3 {
+	font-family: $font-title;
+	color: $primary;
+}
