@@ -1,0 +1,20 @@
+@import "../../assets/scss/variables.scss";
+
+.title {
+	font-family: $font-title;
+	font-size: 40px;
+	line-height: 53px;
+	text-transform: uppercase;
+	margin: 0 0 164px 0;
+	color: $secondary;
+}
+
+.tech-stack__container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.tech-stack {
+	margin-bottom: 150px;
+}
