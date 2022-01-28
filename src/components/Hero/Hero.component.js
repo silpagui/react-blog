@@ -18,7 +18,6 @@ export function Hero() {
 				width="500"
 				height="500"
 				viewBox="0 0 1124 776"
-				xmlns="http://www.w3.org/1999/xlink"
 			>
 				<title>light_the_fire</title>
 				<ellipse cx="562" cy="739" rx="562" ry="37" fill="#3f3d56" />
