@@ -3,9 +3,9 @@ import "./Header.styles.scss";
 import { Navigation } from "../Navigation/Navigation.component";
 
 export function Header() {
-	return (
-		<header className="header content-layout">
-			<Navigation />
-		</header>
-	);
+  return (
+    <header className="header content-layout">
+      <Navigation />
+    </header>
+  );
 }

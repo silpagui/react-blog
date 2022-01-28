@@ -1,18 +1,18 @@
 @import "../../assets/scss/variables.scss";
 
 .title {
-	font-family: $font-title;
-	font-size: 40px;
-	line-height: 53px;
-	text-transform: uppercase;
-	margin: 0 0 164px 0;
-	color: $primary;
+  font-family: $font-title;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  margin: 0 0 164px 0;
+  color: $primary;
 }
 
 .article .title {
-	color: $secondary;
+  color: $secondary;
 }
 
 .article {
-	margin-bottom: 150px;
+  margin-bottom: 150px;
 }

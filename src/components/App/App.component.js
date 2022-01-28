@@ -9,15 +9,15 @@ import { Form } from "../Form/Form.component";
 import { Footer } from "../Footer/Footer.component";
 
 export function App() {
-	return (
-		<div className="app">
-			<Header />
-			<Hero />
-			<ServiceSection />
-			<TechStack />
-			<ArticleList />
-			<Form />
-			<Footer />
-		</div>
-	);
+  return (
+    <div className="app">
+      <Header />
+      <Hero />
+      <ServiceSection />
+      <TechStack />
+      <ArticleList />
+      <Form />
+      <Footer />
+    </div>
+  );
 }

@@ -2,18 +2,18 @@
 
 .service-title,
 .title {
-	font-family: $font-title;
-	text-align: center;
-	font-size: 40px;
-	line-height: 53px;
-	text-transform: uppercase;
-	margin: 0 0 164px 0;
-	color: $primary;
+  font-family: $font-title;
+  text-align: center;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  margin: 0 0 164px 0;
+  color: $primary;
 }
 
 .service-container {
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-around;
-	margin-bottom: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 150px;
 }
